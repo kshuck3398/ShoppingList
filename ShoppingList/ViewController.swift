@@ -13,10 +13,16 @@ class ViewController: UIViewController, UITableViewDataSource{
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var newItemTextfield: UINavigationItem!
     
+    var items:(Item)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
 
+      let item1 = Item(name: "Milk")
+        let item2 = Item(name: "Eggs")
+        
+        items = [item1,item2]
     }
     @IBAction func whenButtonPressed(_ sender: Any) {
         
