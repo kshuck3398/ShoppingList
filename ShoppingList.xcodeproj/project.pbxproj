@@ -13,6 +13,7 @@
 		F22DF6BC23E88DCC008FDE3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22DF6BA23E88DCC008FDE3D /* Main.storyboard */; };
 		F22DF6BE23E88DCE008FDE3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22DF6BD23E88DCE008FDE3D /* Assets.xcassets */; };
 		F22DF6C123E88DCE008FDE3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22DF6BF23E88DCE008FDE3D /* LaunchScreen.storyboard */; };
+		F29C063C23E9DDB500C1BC8C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29C063B23E9DDB500C1BC8C /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F22DF6BD23E88DCE008FDE3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F22DF6C023E88DCE008FDE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F22DF6C223E88DCE008FDE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29C063B23E9DDB500C1BC8C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F22DF6BD23E88DCE008FDE3D /* Assets.xcassets */,
 				F22DF6BF23E88DCE008FDE3D /* LaunchScreen.storyboard */,
 				F22DF6C223E88DCE008FDE3D /* Info.plist */,
+				F29C063B23E9DDB500C1BC8C /* Item.swift */,
 			);
 			path = ShoppingList;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F29C063C23E9DDB500C1BC8C /* Item.swift in Sources */,
 				F22DF6B923E88DCC008FDE3D /* ViewController.swift in Sources */,
 				F22DF6B523E88DCC008FDE3D /* AppDelegate.swift in Sources */,
 				F22DF6B723E88DCC008FDE3D /* SceneDelegate.swift in Sources */,
