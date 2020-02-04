@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITableViewDataSource{
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var newItemTextfield: UINavigationItem!
     
-    var items:(Item)
+    var items:[Item] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +22,7 @@ class ViewController: UIViewController, UITableViewDataSource{
       let item1 = Item(name: "Milk")
         let item2 = Item(name: "Eggs")
         
-        items = [item1,item2]
+        items = [item1, item2]
     }
     @IBAction func whenButtonPressed(_ sender: Any) {
         
